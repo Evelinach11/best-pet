@@ -1,0 +1,37 @@
+.faq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff6ed;
+    height: 700px;
+}
+.faq-h2 {
+    color: #040f73;
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    padding-top: 10%;
+}
+.faq-h3 {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-family: 'Poppins', sans-serif;
+    color: #424875;
+    font-size: 20px;
+}
+.accordion-item {
+    background-color: #fff6ed;
+    font-family: 'Poppins', sans-serif;
+    color: #424875;
+    font-size: 18px;
+}
+.accordion-button {
+    background-color: #fff6ed;
+    font-family: 'Poppins', sans-serif;
+    color: #424875;
+    font-size: 22px;
+}
+.faq-img {
+    width: 500px;
+    height: 650px;
+    margin-right: 80px;
+}

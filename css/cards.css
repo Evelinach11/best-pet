@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.animals-cards {
+    background-color: #fff6ed;
+}
+.animal-cards__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.animal-cards__item {
+    width: 230px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.animal-cards__svg {
+    height: 50px;
+    width: 50px;
+}
+
+.animal-cards__line {
+    height:3px;
+    width:20%;
+    background-color:#ff5b2e;
+}
+
+.animal-cards__h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #040f73;
+}
+.animal-cards__text {
+    color: rgb(106,110,143);
+    font-family: 'Poppins', sans-serif;
+}
+.animal-cards__arrow {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #040f73;
+}

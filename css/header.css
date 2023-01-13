@@ -1,0 +1,94 @@
+.best-pets__nav-logo {
+    width: 170px;
+    height: 40px;
+}
+.best-pets__navbar {
+    background-color: #fff6ed !important;
+}
+.nav-link {
+    position: relative;
+    transition: all .25s ease;
+}
+.nav-link::after {
+    content: "";
+    background: #ff5b2e;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    bottom: 3px;
+    transform: scaleX(0);
+    left: 0;
+    transition: all .25s ease;
+}
+.nav-link:hover {
+    color: #ff5b2e !important;
+}
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+#best-pets__link {
+    color: rgb(106, 110, 143);
+    font-size: 20px;
+}
+.list-icon {
+    position: relative;
+    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.header {
+    height: 800px;
+    background-color:#fff6ee;
+}
+.header-text {
+    background-image: url(../img/header-cat.png);
+    background-size: cover;
+    background-position: -90%;
+    height: 700px; 
+}
+.header-h1 {
+    color: #040f73;
+    font-family: 'Rubik', sans-serif;
+    font-size: 68px;
+    padding-top: 10%;
+}
+.header-h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #424875;
+    font-size: 19px; 
+}
+.header-btn {
+    background-color: #ff5b2e;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    padding-right: 20px;
+    padding: 0px 0px 0px 32px;
+    margin-left: 20px;
+}
+.header-btn:hover {
+    background-color: #424875;
+    transition: all .25s ease;
+}
+.header-span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    color: #040f73;
+    padding: 0px 0px 0px 32px;
+}
+
